@@ -1,0 +1,183 @@
+/***** Base Styles *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #373F51;
+}
+
+/* One page style */
+#about, #skills, #contact {
+  height: 600px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #13495C;
+}
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+header{
+  height: 800px;
+  background: url(../img/hero-image.png);
+  background-size: cover;
+
+}
+header h1 {
+  font-size: 24px;
+  padding: 85px 0 65px 65px;
+}
+nav {
+  float: right;
+  padding: 90px 25px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #13495C;
+  padding-left: 50px;
+}
+header h2 {
+  width: 1000px;
+  clear: both;
+  font-size: 44px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: lowercase;
+  padding: 250px 25px 25px 25px;
+}
+header h2 span{
+  color: #429EA6;
+}
+/***** ABOUT *****/
+
+#about, #contact { /* About & Contact Background Color */
+  background: #D8DBE2;
+}
+
+#about .full-width{
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-size: 32px;
+  padding-left: 50px;
+}
+
+#about p{
+  font-size: 18px;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+}
+
+/***** SKILLS *****/
+#skills {
+  background: #A9BCD0;
+  text-align: center;
+}
+
+#skills .full-width {
+  padding: 75px 0;
+}
+
+#skills img {
+   padding-top: 50px;
+   padding-bottom: 30px;
+ }
+
+#skills h3 {
+  font-size: 23px;
+  line-height: 32px;
+  width: 190px;
+  margin: 0 50px;
+  padding-left: 40px;
+}
+
+#skills p{
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 50px;
+}
+
+/***** CONTACT *****/
+#contact .full-width {
+  padding: 80px 0;
+}
+
+#contact img#contact-img {
+  margin-left: 25px;
+  border: 12px solid #A9BCD0;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul{
+  padding-left: 115px;
+}
+
+#contact h2 {
+  font-size: 30px;
+  line-height: 44px;
+}
+
+#contact #envelope {
+  padding: 0 10px 0 115px;
+}
+
+#contact #email-header{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 44px;
+  margin: -28px 0 5px 0;
+}
+#contact #socialmedia-header{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 44px;
+  margin: 40px 0 0 0;
+}
+#contact a{
+  text-decoration: none;
+  color: #373F51;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#contact ul{
+  list-style: none;
+}
+
+#contact li {
+  display: inline-block;
+  padding-right: 48px;
+  font-size: 32px;
+}
+
+/***** FOOTER *****/
+footer{
+  clear: both;
+  height: 90px;
+  background: #373F51;
+  padding: 20px 0 0 0;
+}
+
+footer h4{
+  color: #D8DBE2;
+  text-align: center;
+  font-size: 18px;
+}
